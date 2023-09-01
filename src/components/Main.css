@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 275px;
+    background: rgb(34, 37, 44);
+}
+
+main > .firstSection, .secondSection {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title, .main-info {
+    margin: 0;
+    text-align: left;
+}
+
+.main-title {
+    font-size: 1.35rem;
+}
+
+.main-info {
+    font-size: 0.55rem;
+}

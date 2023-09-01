@@ -1,0 +1,24 @@
+.footer {
+    background: rgb(34, 37, 44);
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 275px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.footer > .socials {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials > div {
+    width: 25px;
+    height: 25px;
+    background: rgb(143, 141, 153);
+    border-radius: 4px;
+}
